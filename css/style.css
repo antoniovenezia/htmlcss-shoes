@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Orelega One', cursive;;
+}
+
+
+/* NAV BAR */
+.nav-bar{
+    display: inline-block;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 100%;
+    padding: 20px 30px;
+}
+
+a{
+    color: black;
+}
+
+.nav-style{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+
+
+.main-1{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    text-align: center;
+}
+
+
+.first-page{
+    background-color: red;
+    height: 100vh;
+    position: relative;
+}
+
+.second-page{
+    background-color: green;
+    height: 100vh;
+    position: relative;
+}
+
+
+.third-page{
+    background-color: yellow;
+    height: 100vh;
+    position: relative;
+}
+
+.yellow-text{
+    font-size: 50px;
+    color: yellow;
+}
+
+.green-text{
+    font-size: 50px;
+    color: green;
+}
+
